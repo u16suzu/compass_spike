@@ -1,0 +1,20 @@
+/* line 5, ../sass/style.scss */
+textarea:-moz-placeholder:after {
+  display: block;
+  content: "Second line \A Third line\A You get the picture...\A 5";
+}
+/* line 5, ../sass/style.scss */
+textarea::-moz-placeholder:after {
+  display: block;
+  content: "Second line \A Third line\A You get the picture...\A 5";
+}
+/* line 5, ../sass/style.scss */
+textarea:-ms-input-placeholder:after {
+  display: block;
+  content: "Second line \A Third line\A You get the picture...\A 5";
+}
+/* line 5, ../sass/style.scss */
+textarea::-webkit-input-placeholder:after {
+  display: block;
+  content: "Second line \A Third line\A You get the picture...\A 5";
+}

@@ -1,0 +1,10 @@
+@import "compass/css3/";
+
+textarea {
+  @include input-placeholder {
+    &:after {
+      display: block;
+      content: "Second line \A Third line\A You get the picture...\A 5";
+    }
+  }
+}
